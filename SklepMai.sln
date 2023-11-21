@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.FtpManager.Domain"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.FtpManager.Infrastructure", "SklepMai.FtpManager.Infrastructure\SklepMai.FtpManager.Infrastructure.csproj", "{5AF485E2-F303-427F-8E21-35E690766AC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.Core", "SklepMai.Core\SklepMai.Core.csproj", "{12FC686D-830A-4580-880E-31747125D7CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.Domain", "SklepMai.Domain\SklepMai.Domain.csproj", "{68F399D1-61DE-4A2F-9C56-563616545897}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{5AF485E2-F303-427F-8E21-35E690766AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AF485E2-F303-427F-8E21-35E690766AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AF485E2-F303-427F-8E21-35E690766AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FC686D-830A-4580-880E-31747125D7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FC686D-830A-4580-880E-31747125D7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FC686D-830A-4580-880E-31747125D7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FC686D-830A-4580-880E-31747125D7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F399D1-61DE-4A2F-9C56-563616545897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F399D1-61DE-4A2F-9C56-563616545897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F399D1-61DE-4A2F-9C56-563616545897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F399D1-61DE-4A2F-9C56-563616545897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
