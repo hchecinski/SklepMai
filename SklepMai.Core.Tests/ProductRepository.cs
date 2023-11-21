@@ -31,12 +31,18 @@ namespace SklepMai.Core.Tests
             return await Task.FromResult(List);
         }
 
-        public async Task<ProductDto> GetItemById(int id)
+        public Task<ProductDto> GetItemById(int id)
         {
-            return await Task.FromResult(List.FirstOrDefault(i => i.Id == id));
+            //return await Task.FromResult(List.FirstOrDefault(i => i.Id == id));
+            throw new NotImplementedException();
         }
 
         public Task<bool> UpdateItem(ProductDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> IsProductNameAlreadyExist(string productName)
         {
             throw new NotImplementedException();
         }

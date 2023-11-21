@@ -8,6 +8,6 @@ namespace SklepMai.Domain.Repositories
 {
     public interface IProductRepository : IRepository<ProductDto>
     {
-        
+        Task<bool> IsProductNameAlreadyExist(string productName);
     }
 }
