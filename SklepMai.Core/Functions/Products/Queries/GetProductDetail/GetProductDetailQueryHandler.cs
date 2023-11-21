@@ -1,12 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
 using SklepMai.Domain.Repositories;
 
-namespace SklepMai.Core.Functions.Products.Queries
+namespace SklepMai.Core.Functions.Products.Queries.GetProductDetail
 {
     public class GetProductDetailQueryHandler : IRequestHandler<GetProductDetailQuery, ProductDetail>
     {

@@ -9,8 +9,8 @@ namespace SklepMai.Domain.Repositories
     {
         Task<T> GetItemById(int id);
         Task<IEnumerable<T>> GetAllItems();
-        Task AddItem(T item);
-        Task UpdateItem(T item);
-        Task DeleteItem(T item);
+        Task<int> AddItem(T item);
+        Task<bool> UpdateItem(T item);
+        Task<bool> DeleteItem(int id);
     }
 }

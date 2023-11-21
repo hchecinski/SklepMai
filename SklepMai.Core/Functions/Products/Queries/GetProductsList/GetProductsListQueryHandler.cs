@@ -2,7 +2,7 @@ using AutoMapper;
 using MediatR;
 using SklepMai.Domain.Repositories;
 
-namespace SklepMai.Core.Functions.Products.Queries
+namespace SklepMai.Core.Functions.Products.Queries.GetProductsList
 {
     public class GetProductsListQueryHandler : IRequestHandler<GetProductsListQuery, List<ProductInList>>
     {

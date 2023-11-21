@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace SklepMai.Core.Functions.Products.Queries
+namespace SklepMai.Core.Functions.Products.Queries.GetProductDetail
 {
     public class GetProductDetailQuery : IRequest<ProductDetail>
     {
