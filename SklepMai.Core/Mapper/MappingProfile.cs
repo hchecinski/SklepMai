@@ -1,8 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
+using SklepMai.Core.Functions.Products.Queries;
+using SklepMai.Domain.Models;
 
 namespace SklepMai.Core.Mapper
 {
@@ -10,7 +8,7 @@ namespace SklepMai.Core.Mapper
     {
         public MappingProfile()
         {
-            
+            CreateMap<ProductInList, ProductDto>().ReverseMap();
         }
     }
 }
