@@ -7,13 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.FtpManager.Api", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.FtpManager.Domain", "SklepMai.FtpManager.Domain\SklepMai.FtpManager.Domain.csproj", "{4816C3BE-6696-49FB-873B-68237E6AF0F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.FtpManager.Infrastructure", "SklepMai.FtpManager.Infrastructure\SklepMai.FtpManager.Infrastructure.csproj", "{5AF485E2-F303-427F-8E21-35E690766AC7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.Core", "SklepMai.Core\SklepMai.Core.csproj", "{12FC686D-830A-4580-880E-31747125D7CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.Domain", "SklepMai.Domain\SklepMai.Domain.csproj", "{68F399D1-61DE-4A2F-9C56-563616545897}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.Core.Tests", "SklepMai.Core.Tests\SklepMai.Core.Tests.csproj", "{51470E37-CD6B-4C84-B706-D6B9AB04E66E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SklepMai.Persistence.Dapper", "SklepMai.Persistence.Dapper\SklepMai.Persistence.Dapper.csproj", "{F8D23C00-6A0E-4889-A7A3-68C3CD00B8E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,10 +32,6 @@ Global
 		{4816C3BE-6696-49FB-873B-68237E6AF0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4816C3BE-6696-49FB-873B-68237E6AF0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4816C3BE-6696-49FB-873B-68237E6AF0F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5AF485E2-F303-427F-8E21-35E690766AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5AF485E2-F303-427F-8E21-35E690766AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5AF485E2-F303-427F-8E21-35E690766AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5AF485E2-F303-427F-8E21-35E690766AC7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{12FC686D-830A-4580-880E-31747125D7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{12FC686D-830A-4580-880E-31747125D7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12FC686D-830A-4580-880E-31747125D7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,5 +44,9 @@ Global
 		{51470E37-CD6B-4C84-B706-D6B9AB04E66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51470E37-CD6B-4C84-B706-D6B9AB04E66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51470E37-CD6B-4C84-B706-D6B9AB04E66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D23C00-6A0E-4889-A7A3-68C3CD00B8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D23C00-6A0E-4889-A7A3-68C3CD00B8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D23C00-6A0E-4889-A7A3-68C3CD00B8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D23C00-6A0E-4889-A7A3-68C3CD00B8E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
